@@ -2,11 +2,11 @@
 
 
 Tecnologias usadas:
--HTML
--CSS
--Javascript
--React JS
--Styled Components
+-HTML<br>
+-CSS<br>
+-Javascript<br>
+-React JS<br>
+-Styled Components<br>
 
 <h2>Sobre o Projeto:</h2>
 
@@ -24,6 +24,13 @@ useEffect
 Foi utilizado para rotas React Router DOM 6
 Foi dividido os objetos do front end em componentes.
 
-Segue a imagem abaixo do projeto:
+Segue as imagens do projeto.
 
+Segue as imagens abaixo do projeto:
+
+<img src="https://github.com/Johnrosa59/student-front-end-project/blob/master/imgs/1.png" />
+
+<img src="https://github.com/Johnrosa59/student-front-end-project/blob/master/imgs/2.png" />
+
+<img src="https://github.com/Johnrosa59/student-front-end-project/blob/master/imgs/3.png" />
 
