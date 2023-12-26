@@ -21,7 +21,7 @@ Dos React Hooks utilizados foram:
 -useNavigate<br>
 -useEffect
 
-Foi utilizado para rotas React Router DOM 6
+Foi utilizado para rotas React Router DOM 6<br>
 Foi dividido os objetos do front end em componentes.
 
 Segue as imagens abaixo do projeto:
