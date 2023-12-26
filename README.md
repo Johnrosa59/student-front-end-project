@@ -2,7 +2,7 @@
 
 
 Tecnologias usadas:
--HTML<br>
+<br>-HTML<br>
 -CSS<br>
 -Javascript<br>
 -React JS<br>
