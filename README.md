@@ -24,8 +24,6 @@ useEffect
 Foi utilizado para rotas React Router DOM 6
 Foi dividido os objetos do front end em componentes.
 
-Segue as imagens do projeto.
-
 Segue as imagens abaixo do projeto:
 
 <img src="https://github.com/Johnrosa59/student-front-end-project/blob/master/imgs/1.png" />
