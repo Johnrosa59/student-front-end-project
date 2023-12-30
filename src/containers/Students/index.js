@@ -23,7 +23,7 @@ import { useNavigate } from "react-router-dom";
 
 function App() {
 
-  const baseUrl = "project-estudante.vercel.app"
+  const baseUrl = "https://project-estudante.vercel.app"
 
   const [students, setStudents] = useState([]);
   const navigate = useNavigate()
