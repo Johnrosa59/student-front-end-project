@@ -30,7 +30,7 @@ function App() {
 
   useEffect(()=>{
     async function FetchUsers(){
-    const {data: newStudents} = await axios.get(`${baseUrl}/students`)
+    const {data: newStudents} = await axios.get(`${baseUrl}/students/`)
 
   setStudents(newStudents);
     }
