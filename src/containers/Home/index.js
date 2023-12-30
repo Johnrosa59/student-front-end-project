@@ -24,6 +24,9 @@ import GlobalStyle from "../../global";
 import axios from "axios";
 
 function App() {
+
+  const baseUrl = "project-estudante.vercel.app"
+
   const [students, setStudents] = useState([]);
   const inputName = useRef();
   const inputAge = useRef();
@@ -33,7 +36,7 @@ function App() {
 
   async function addNewStudent() {
 
-    const { data: newStudent } = await axios.post("http://localhost:4000/students", {nameOfStudent: inputName.current.value, age: inputAge.current.value, responsibleTeacher: inputResponsibleTeacher.current.value, room: inputClassRoom.current.value})
+    const { data: newStudent } = await axios.post(`${baseUrl}/students`, {nameOfStudent: inputName.current.value, age: inputAge.current.value, responsibleTeacher: inputResponsibleTeacher.current.value, room: inputClassRoom.current.value})
 
     setStudents([...students, newStudent])
 

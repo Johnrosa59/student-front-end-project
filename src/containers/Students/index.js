@@ -22,12 +22,15 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 function App() {
+
+  const baseUrl = "project-estudante.vercel.app"
+
   const [students, setStudents] = useState([]);
   const navigate = useNavigate()
 
   useEffect(()=>{
     async function FetchUsers(){
-    const {data: newStudents} = await axios.get("http://localhost:4000/students")
+    const {data: newStudents} = await axios.get(`${baseUrl}/students`)
 
   setStudents(newStudents);
     }
@@ -35,7 +38,7 @@ function App() {
   },[])
 
   async function deleteUser(studentId) {
-    await axios.delete(`http://localhost:4000/students/${studentId}`)
+    await axios.delete(`${baseUrl}/students/${studentId}`)
     const newStudents = students.filter((student) => student.id !== studentId);
     setStudents(newStudents)
   }
