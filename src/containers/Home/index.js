@@ -25,7 +25,7 @@ import axios from "axios";
 
 function App() {
 
-  const baseUrl = "project-estudante.vercel.app"
+  const baseUrl = "https://project-estudante.vercel.app"
 
   const [students, setStudents] = useState([]);
   const inputName = useRef();
