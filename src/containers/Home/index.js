@@ -31,7 +31,7 @@ function App() {
   const inputName = useRef();
   const inputAge = useRef();
   const inputResponsibleTeacher = useRef();
-  const inputClassRoom = useRef();
+  const inputClassRoom = useRef()
   const navigate = useNavigate()
 
   async function addNewStudent() {
